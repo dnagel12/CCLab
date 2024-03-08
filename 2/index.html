@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Creature</title>
+  <style>
+    .creature {
+      text-align: center;
+      margin-top: 100px;
+    }
+  </style>
+  <script>
+    function getRandomCreature() {
+      var creatures = [
+        "dragon.png",
+        "unicorn.png",
+        "phoenix.png",
+        "sphinx.png",
+        "griffin.png",
+        "mermaid.png",
+        "centaur.png"
+      ];
+      var randomIndex = Math.floor(Math.random() * creatures.length);
+      return creatures[randomIndex];
+    }
+    
+    function displayRandomCreature() {
+      var creatureElement = document.getElementById("creature");
+      creatureElement.src = getRandomCreature();
+    }
+  </script>
+</head>
+<body>
+  <img class="creature" id="creature" src="" alt="Random Creature">
+  <button onclick="displayRandomCreature()">Generate Random Creature</button>
+</body>
+</html>

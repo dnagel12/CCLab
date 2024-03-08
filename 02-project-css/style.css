@@ -1,0 +1,13 @@
+h3{
+    color: rgb(129, 65, 35, 0.471);
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif ;
+    font-style: italic;
+}
+
+.text-violet{
+    color: violet
+}
