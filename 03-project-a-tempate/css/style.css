@@ -1,14 +1,17 @@
 body {
-    background-color: black;
+    background-color: rgba(218, 204, 13, 0.75);
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
 }
 
+
+
+
 /* title */
 #title-wrapper {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 .headline {
@@ -25,15 +28,15 @@ body {
 }
 
 .red {
-    color: coral;
+    color: rgb(0, 0, 0);
 }
 
 .green {
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
 .yellow {
-    color: gold;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -60,8 +63,9 @@ body {
 }
 
 /* Sketch placeholder */
-#p5-canvas-container img {
-    width: 800px;
+#p5-canvas-container {
+    width: 600px;
+    margin: auto
 }
 
 
